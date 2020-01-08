@@ -1,0 +1,77 @@
+.container {
+    /* border-radius: 5px; */
+    /* background-color: green; */
+    /* padding: 20px; */
+   
+  }
+  .heading{
+      text-align: center;
+  }
+  .row-header {
+    /* content: ""; */
+    /* display: table; */
+    /* clear: both; */
+    border:1px solid black;
+    height:40px;
+    border-color: lightgray;
+    margin-top: 6px;
+    border-radius: 5px;
+    /* background-color: cyan; */
+    /* width:80%; */
+    margin-left:50px; /* half of width */
+    margin-right:50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    background-color: #F1F1EF;
+  }
+  .row {
+    /* content: ""; */
+    /* display: table; */
+    /* clear: both; */
+    border:1px solid black;
+    height:40px;
+    border-color: lightgray;
+    margin-top: 6px;
+    border-radius: 5px;
+    /* background-color: cyan; */
+    /* width:80%; */
+    margin-left:50px; /* half of width */
+    margin-right:50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px lightgray;
+  }
+
+  .col-20 {
+    float: left;
+    width: 20%;
+   /* justify-content: center; */
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    
+  }
+  .pages{
+    display: flex;
+    justify-content: center;
+  }
+  .page-numbers{
+    border:1px solid black;
+    height:25px;
+    width: 25px;
+    border-color: lightgray;
+    font-size: 14px;
+    /* padding:5px; */
+    margin:5px;
+    color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px lightgray;
+  }
