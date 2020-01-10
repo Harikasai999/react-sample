@@ -91,7 +91,7 @@ function List() {
 
     const renderPageNumbers = pageNumbers.map(number => {
         return (
-            <div class="page-numbers">
+            <div class="page-numbers" >
                 <li
                     key={number}
                     id={number}
@@ -113,20 +113,20 @@ function List() {
             <div>
                 <h1 class="heading">List</h1>
                 <div class="row-header">
-                    <div class="col-20">
-                        user-id
+                    <div class="col-20-header">
+                        User-Id
                     </div>
-                    <div class="col-20">
-                        name
+                    <div class="col-20-header">
+                        Name
                     </div>
-                    <div class="col-20">
-                    email
+                    <div class="col-20-header">
+                    Email
                     </div>
-                    <div class="col-20">
-                        phone
+                    <div class="col-20-header">
+                        Phone
                     </div>
-                    <div class="col-20">
-                    company name
+                    <div class="col-20-header">
+                    Company name
                     </div>
                 </div>
                 {renderTodos}

@@ -1,7 +1,27 @@
 .App {
   text-align: center;
 }
+.button-container{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-top: 10px;
 
+  /* background-color:#4CAF50; 
+  height:30px; 
+  width:100; 
+  border-radius:5px; 
+  border-color:#4CAF50; */
+}
+.button-style{
+  background-color:#4CAF50; 
+  height:30px; 
+  width:100px; 
+  border-radius:5px; 
+  border-color:#4CAF50;
+ color: white;
+ cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

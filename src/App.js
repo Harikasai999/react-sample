@@ -1,45 +1,50 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import logo from './logo.svg';
-import List from "./List/List"
-import Pagination from "./Pagination/Pagination"
-import SignUp from "./SignUp/SignUp";
-
+// import { Button } from 'react-bootstrap';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
-    
-    <List />
-   
+    <div className="App">
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
+      </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/Login")}>
+      Login
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/List")}>
+      List
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/Pagination")}>
+      Pagination
+      </Button>
+      </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/Card")}>
+      Card
+      </Button> </div>
+      {/* <div class="button-container">
+        <Button className="button-style" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
+      </div>
+      <div class="button-container">
+        <Button className="button-style" onClick={() => props.history.push("/Login")}>Login</Button>
+      </div>
+      <div class="button-container">
+        <Button className="button-style"  onClick={() => props.history.push("/List")}>List</Button>
+      </div>
+      <div class="button-container">
+        <Button  className="button-style" onClick={() => props.history.push("/Pagination")}>Pagination</Button>
+      </div>
+      <div class="button-container">
+        <Button  className="button-style" onClick={() => props.history.push("/Card")}>Card</Button>
+      </div> */}
+
+    </div>
   )
 }
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
 
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-function Dashboard() {
-  return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
-  );
-}
 export default App;
