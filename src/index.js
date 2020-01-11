@@ -10,7 +10,7 @@ import Pagination from "./Pagination/Pagination"
 import SignUp from "./SignUp/SignUp";
 import Login from "./Login/Login";
 import Card from "./Components/CardExample"
-
+import Cart from "./Cart/Cart"
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -19,6 +19,7 @@ const routing = (
       <Route path="/SignUp" component={SignUp} />
       <Route path="/Login" component={Login} />
       <Route path="/Card" component={Card} />
+      <Route path="/Cart" component={Cart} />
     </Router>
   );
 

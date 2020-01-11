@@ -92,6 +92,7 @@ input[type=submit]:hover {
 
 .heading{
     text-align: center;
+    margin-top: 10px;
     /* background-color: pink; */
 }
 

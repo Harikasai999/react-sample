@@ -97,7 +97,7 @@ function SignUp() {
   return (
     <div>
       <div class="heading">
-        <h1>SignUp</h1>
+        <h3>SignUp</h3>
       </div>
       <form onSubmit={onSubmit}>
       <div class="input-container">

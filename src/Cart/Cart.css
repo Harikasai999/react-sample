@@ -1,0 +1,392 @@
+.main{}
+.heading{
+    text-align: center;
+}
+.main-container{
+    /* width:100%; */
+    /* border:1px solid black; */
+    /* height:40px; */
+    /* border-color: lightgray; */
+    margin-top: 6px;
+    /* border-radius: 5px; */
+    /* background-color: cyan; */
+    /* width:80%; */
+    /* margin-left:50px; */
+    /* margin-right:50px; */
+    display: flex;
+    /* align-items: center; */
+    /* box-shadow: 1px 1px 1px 1px lightgray; */
+    /* background-color: #F1F1EF; */
+}
+.col-60{
+ width:60%;
+ border-right: 1px solid #E7E7E7;
+ border-right-width: 1px;
+    /* background-color: rgb(176, 253, 249); */
+}
+.col-40{
+    width:20%;
+    /* background-color: lightyellow; */
+    margin-left: 15px;
+}
+.col-10{
+    width:10%;
+    background-color: lightpink;
+}
+.available{
+    margin-top: 10px;
+    height:90px;
+    border: 1px solid #E7E7E7;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    /* padding:15px */
+}
+.available-text{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #373535;
+}
+.available-container{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    /* align-items: center; */
+}
+.cashback-text{
+    font-size: 11px;
+    color: #696969;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.show-more-text-container{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.show-more-text{
+    font-size: 11px;
+    color: #FB3737;
+    font-weight: 600;
+}
+.down-arrow-image{
+    margin-left: 1px;
+    /* color:#FF0000 */
+}
+.shop-container{
+    margin-top: 10px;
+    height:40px;
+    border: 1px solid #E7E7E7;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.shop-text{
+    font-size: 12px;
+    color: #696969;
+    margin-left: 5px;
+}
+.shipping-image{
+    margin-left: 15px;
+}
+.price-text{
+    margin-left: 3px;
+    font-size: 12px;
+    color: #FB3737;
+}
+.free-text{
+    margin-left: 3px;
+    font-size: 12px;
+    color: #696969;
+    font-weight: 600;
+}
+.shipping-bag{
+    /* height:40px; */
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.shopping-text{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #373535;
+}
+.list-item{
+    height:185px;
+    /* background-color: lightpink; */
+    border: 1px solid #E7E7E7;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.list-item-container{
+    height:79%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    /* border-bottom: 1px solid #E7E7E7; */
+    /* padding-left: 10px; */
+}
+.border-line{
+    height:1%;
+    border-bottom: 1px solid #E7E7E7;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list-item-buttons{
+    height:20%;
+    display: flex;
+    /* background-color: lightsteelblue; */
+}
+.image-container{
+    width:19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-container{
+    width:58%;
+    /* background-color: linen; */
+}
+.price-container{
+    width:20%;
+    /* background-color: lemonchiffon; */
+
+   
+}
+.empty-container{
+    width:3%
+}
+.first-line{
+   font-size: 12px;
+   margin-top: 10px;
+   font-weight: 600;
+   color:#373535;
+}
+.second-line{
+    font-size: 12px;
+    color:#373535;
+}
+.third-line{
+    font-size: 9px;
+    color: #B0AAAA;
+}
+
+  .buttons{
+      display: flex;
+      margin-top: 10px;
+  }
+  .item-price{
+      display: flex;
+      justify-content: flex-end;
+    font-size: 12px;
+    color:#373535;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .offer-container{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .stikeoff-text{
+    font-size: 12px;
+    color:grey;
+  }
+  .offer-text{
+   margin-left: 5px;
+    font-size: 12px;
+    color:#FB3737;
+  }
+  .remove-text{
+    width:15%;
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: aquamarine; */
+  }
+  .right-border{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    width:1%;
+    border-right: 1px solid #E7E7E7;
+  }
+  .whishlist-text{
+    width:34%;
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    /* background-color: lightsalmon; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .empty{
+    width:50%;
+  }
+  .add-more-container{
+    border: 1px solid #E7E7E7;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-weight: 600;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+  }
+  .add-more{
+    display: flex;
+    align-items: center;
+  }
+  .add-more-text{
+      font-size: 11px;
+      color: #373535;
+      margin-left: 5px;
+  }
+  .wishlist-icon{
+      margin-left: 10px;
+  }
+  .right-icon{
+      margin-right: 10px;
+  }
+  .coupon-text{
+      font-size: 10px;
+      font-weight: 600;
+      color: grey;
+  }
+  .apply-coupons-container{
+      display: flex;
+      margin-top: 10px;
+      justify-content: space-between;
+  }
+  .apply-coupon-text{
+    color: #373535;
+    font-size: 11px;
+    margin-left: 15px;
+    font-weight: 600;
+
+  }
+  .apply-button{
+      height:20px;
+      width: 60px;
+      border: 1.3px solid #FB3737;
+      font-size: 10px;
+      color: #FB3737;
+      border-radius: 3px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-weight: 600;
+  }
+  .coupons-for-you-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+  }
+  .login-text{
+      font-size: 10px;
+      color:#FB3737;
+      font-weight: 600;
+  }
+  .coupons-for-you-text{
+    font-size: 10px;
+    color:grey;
+    margin-left: 3px;
+    font-weight: 600;
+  }
+  .border-bottom{
+      border-bottom: 1px solid #F5F4F4;
+      margin-top: 10px;
+  }
+  .price-details{
+    font-size: 10px;
+    font-weight: 600;
+    color: grey;
+    margin-top: 15px;
+  }
+  .common-container{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+  .common-text{
+      font-size: 10px;
+      color: grey;
+  }
+  .discount-text{
+    font-size: 10px;
+    color: lightseagreen;
+  }
+  .coupon-txt{
+    font-size: 10px;
+    color: #FB3737;
+  }
+  .total-text{
+    font-size: 11px;
+    color: grey;
+    font-weight: 600;
+ 
+  }
+  .login-container{
+    margin-top: 10px;
+      height:40px;
+      background-color: #f4f4f5;
+      border-radius: 3px;
+      display: flex;
+      /* align-items: center; */
+  }
+  .button-container{
+    margin-top: 10px;
+    height:30px;
+    background-color: #f93e6c;
+    border-radius: 2px;
+    border: 1.3px solid #f93e6c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+  }
+  .shipping-icon{
+      margin-left: 10px;
+  }
+  .login-txt{
+    font-size: 10px;
+    color:#FB3737;
+    font-weight: 600;
+    margin-left: 5px;
+    /* justify-content: center; */
+}
+.container-1{
+    width:15%;
+    background-color: violet;
+}
+.container-2{
+    width:85%;
+    /* background-color: khaki; */
+    align-items: center;
+}
+.login-view{
+    /* display: flex; */
+    background-color: lavender;
+   align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+}
