@@ -351,7 +351,7 @@
       display: flex;
       /* align-items: center; */
   }
-  .button-container{
+  .place-button-container{
     margin-top: 10px;
     height:30px;
     background-color: #f93e6c;
@@ -376,17 +376,24 @@
 }
 .container-1{
     width:15%;
-    background-color: violet;
+    /* background-color: violet; */
 }
 .container-2{
     width:85%;
     /* background-color: khaki; */
+    /* align-items: center; */
+}
+.sub-view{
+    height: 100%;
+    display: flex;
+    /* background-color: lightgreen; */
+   /* align-items: center; */
+    /* justify-content: center; */
     align-items: center;
 }
-.login-view{
-    /* display: flex; */
-    background-color: lavender;
-   align-items: center;
-    /* justify-content: center;
-    align-items: center; */
+.free-delivery-text{
+    font-size: 10px;
+    color:grey;
+    margin-left: 3px;
+    font-weight: 600;
 }

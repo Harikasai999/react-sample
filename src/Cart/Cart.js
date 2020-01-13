@@ -44,13 +44,23 @@ const items = [
     },
     {
         id: '2',
-        type: "Classic",
+        type: "Western Footwear",
         image: "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_260,h_260/global/192562/01/fnd/IND/fmt/png/LQDCELL-Optic-Rave-Men's-Running-Shoes",
-        brand: "Brown Shoe",
+        brand: "Grey and Black Shoe",
         sold: "Proleague",
         price: "750",
         offer: "69",
         originalPrice: "3876"
+    },
+    {
+        id: '3',
+        type: "Classic",
+        image: "https://dsw.scene7.com/is/image/DSWShoes/P191182_visual-filter-aston-grey",
+        brand: "Brown Shoe",
+        sold: "Proleague",
+        price: "900",
+        offer: "56",
+        originalPrice: "3664"
     }
 ]
 function Cart(props) {
@@ -241,25 +251,26 @@ function Cart(props) {
                     <div class="common-text">Delivery Charges</div>
                     <div class="common-text">₹ 149</div>
                     </div>
-                    {/* <div className="login-container">
+                    <div className="login-container">
                     <div className="container-1">
                     <img src={require('../Images/shipping.png')} width="18" height="18" className="shipping-icon" />
                     </div>
                      <div className="container-2">
-                         <div className="login-view">
-                     <div class="login-txt">Login</div>
-                    <div class="coupons-for-you-text">to get Free Delivery on your</div>
+                         <div className="sub-view">
+                     {/* <div class="login-txt">Login</div> */}
+                    <div class="free-delivery-text">Login to get Free Delivery on your First Order</div>
                     </div>
+                   
                      </div>
                      
-                    </div> */}
+                    </div>
                  
                     <div class="border-bottom"/>
                     <div class="common-container">
                     <div class="total-text">Total</div>
                     <div class="total-text">₹ 1051</div>
                     </div>
-                    <div className="button-container">
+                    <div className="place-button-container">
                         PLACE ORDER
                         </div>
                 </div>
