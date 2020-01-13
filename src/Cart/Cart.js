@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 // import { Button } from 'react-bootstrap';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -64,6 +64,29 @@ const items = [
     }
 ]
 function Cart(props) {
+    const [totalPrice, setTotalPrice] = useState(0)
+    const [originalPrice, setOriginalPrice] = useState(0)
+    const [discountPrice, setDiscountPrice] = useState(0)
+    const [finalPrice, setFinalPrice] = useState(0)
+    useEffect(() => {
+        calculatePrice();
+    }, []);
+   function calculatePrice(){
+        var total=0
+        var original=0
+        items.map((res, key)=>{
+            total+=parseFloat(res.price)
+            original+=parseFloat(res.originalPrice)
+        })
+     
+        var discount = original - total
+        var final = total+149
+        console.log("ahsgdjhgsd",discount)
+        setTotalPrice(total)
+        setOriginalPrice(original)
+        setDiscountPrice(discount)
+        setFinalPrice(final)
+    }
     return (
         <div >
             <h3 className="heading">Cart</h3>
@@ -93,7 +116,7 @@ function Cart(props) {
                     </div>
                     <div className="shipping-bag">
                         <div className="shopping-text">My Shopping Bag (2 items)</div>
-                        <div className="shopping-text">Total: ₹ 1,051</div>
+                        <div className="shopping-text">Total: ₹ {totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
                     </div>
                     {items.map((res, key) => {
                         return (
@@ -133,7 +156,7 @@ function Cart(props) {
                                     <div className="price-container">
                                         <div className="item-price">₹ {res.price}</div>
                                         <div className="offer-container">
-                                            <div className="stikeoff-text"><strike>₹ {res.originalPrice}</strike></div>
+                                            <div className="stikeoff-text"><strike>₹ {res.originalPrice.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</strike></div>
                                             <div className="offer-text">{res.offer}% OFF</div>
                                         </div>
                                     </div>
@@ -233,11 +256,11 @@ function Cart(props) {
                     <div class="price-details">PRICE DETAILS</div>
                     <div class="common-container">
                     <div class="common-text">Bag Total</div>
-                    <div class="common-text">₹ 3,744</div>
+                    <div class="common-text">₹ {originalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
                     </div>
                     <div class="common-container">
                     <div class="common-text">Bag Discount</div>
-                    <div class="discount-text">-₹ 2,842</div>
+                    <div class="discount-text">-₹ {discountPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
                     </div>
                     <div class="common-container">
                     <div class="common-text">Coupon Discount</div>
@@ -245,7 +268,7 @@ function Cart(props) {
                     </div>
                     <div class="common-container">
                     <div class="common-text">Order Total</div>
-                    <div class="common-text">₹ 902</div>
+                    <div class="common-text">₹ {totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
                     </div>
                     <div class="common-container">
                     <div class="common-text">Delivery Charges</div>
@@ -268,7 +291,7 @@ function Cart(props) {
                     <div class="border-bottom"/>
                     <div class="common-container">
                     <div class="total-text">Total</div>
-                    <div class="total-text">₹ 1051</div>
+                <div class="total-text">₹ {finalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
                     </div>
                     <div className="place-button-container">
                         PLACE ORDER

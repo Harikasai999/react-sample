@@ -11,6 +11,8 @@ import SignUp from "./SignUp/SignUp";
 import Login from "./Login/Login";
 import Card from "./Components/CardExample"
 import Cart from "./Cart/Cart"
+import GridExample from "./Components/GridExample"
+import GridList from "./Components/GridList"
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -20,6 +22,8 @@ const routing = (
       <Route path="/Login" component={Login} />
       <Route path="/Card" component={Card} />
       <Route path="/Cart" component={Cart} />
+      <Route path="/GridExample" component={GridExample} />
+      <Route path="/GridList" component={GridList} />
     </Router>
   );
 

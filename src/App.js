@@ -31,6 +31,14 @@ function App(props) {
       <Button variant="outlined" color="primary" onClick={() => props.history.push("/Cart")}>
       Cart
       </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridExample")}>
+      Grid
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridList")}>
+      Grid List
+      </Button> </div>
       {/* <div class="button-container">
         <Button className="button-style" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
       </div>
