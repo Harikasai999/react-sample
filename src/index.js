@@ -12,7 +12,14 @@ import Login from "./Login/Login";
 import Card from "./Components/CardExample"
 import Cart from "./Cart/Cart"
 import GridExample from "./Components/GridExample"
-import GridList from "./Components/GridList"
+import GridList from "./Components/Grid/GridList"
+import GridList2 from "./Components/Grid/GridList2"
+import GridList3 from "./Components/Grid/GridList3"
+import GridList4 from "./Components/Grid/GridList4"
+import CheckboxExm from "./Components/CheckBox/CheckboxExm"
+import TextInput from "./Components/TextInput/TextInput"
+import DatePickerExmp from "./Components/DatePicker/DatePickerExmp"
+import RadioCheck from "./Components/Radio/RadioCheck"
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -24,6 +31,13 @@ const routing = (
       <Route path="/Cart" component={Cart} />
       <Route path="/GridExample" component={GridExample} />
       <Route path="/GridList" component={GridList} />
+      <Route path="/GridList2" component={GridList2} />
+      <Route path="/GridList3" component={GridList3} />
+      <Route path="/GridList4" component={GridList4} />
+      <Route path="/CheckboxExm" component={CheckboxExm} />
+      <Route path="/TextInput" component={TextInput} />
+      <Route path="/DatePickerExmp" component={DatePickerExmp} />
+      <Route path="/RadioCheck" component={RadioCheck} />
     </Router>
   );
 

@@ -37,7 +37,39 @@ function App(props) {
       </Button> </div>
       <div class="button-container">
       <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridList")}>
-      Grid List
+      Grid with title bars
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridList2")}>
+      Image-only Grid list
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridList3")}>
+      Single line Grid list
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridList3")}>
+      Single line Grid list
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/GridList4")}>
+      Advanced Grid list
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/CheckboxExm")}>
+    Check box examples
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/TextInput")}>
+   Text-Inputs
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/DatePickerExmp")}>
+      Date - Picker
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/RadioCheck")}>
+      Radio Buttons
       </Button> </div>
       {/* <div class="button-container">
         <Button className="button-style" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
