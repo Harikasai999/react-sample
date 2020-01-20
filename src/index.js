@@ -20,6 +20,11 @@ import CheckboxExm from "./Components/CheckBox/CheckboxExm"
 import TextInput from "./Components/TextInput/TextInput"
 import DatePickerExmp from "./Components/DatePicker/DatePickerExmp"
 import RadioCheck from "./Components/Radio/RadioCheck"
+import Selection from "./Components/Selection/Selection"
+import Drawer from "./Components/Drawer/SideMenu"
+import PrimarySearchAppBar from "./Components/AppBar/PrimarySearchAppBar"
+import RegularAppBar from './Components/AppBar/RegularAppBar';
+
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -38,6 +43,10 @@ const routing = (
       <Route path="/TextInput" component={TextInput} />
       <Route path="/DatePickerExmp" component={DatePickerExmp} />
       <Route path="/RadioCheck" component={RadioCheck} />
+      <Route path="/Selection" component={Selection} />
+      <Route path="/Drawer" component={Drawer} />
+      <Route path="/PrimarySearchAppBar" component={PrimarySearchAppBar} />
+      <Route path="/RegularAppBar" component={RegularAppBar} />
     </Router>
   );
 
