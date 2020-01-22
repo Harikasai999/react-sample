@@ -84,6 +84,18 @@ function App(props) {
       <Button variant="outlined" color="primary" onClick={() => props.history.push("/RegularAppBar")}>
      Regular App Bar
       </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/CustomizedExpansionPanels")}>
+ Expansion Panels
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/SkeletonSample")}>
+        Loaders
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/CustomizedSteppers")}>
+        Steppers
+      </Button> </div>
       {/* <div class="button-container">
         <Button className="button-style" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
       </div>

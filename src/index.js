@@ -24,7 +24,9 @@ import Selection from "./Components/Selection/Selection"
 import Drawer from "./Components/Drawer/SideMenu"
 import PrimarySearchAppBar from "./Components/AppBar/PrimarySearchAppBar"
 import RegularAppBar from './Components/AppBar/RegularAppBar';
-
+import CustomizedExpansionPanels from "./Components/ExpansionPanels/CustomizedExpansionPanels"
+import SkeletonSample from './Components/ProgressBar/SkeletonSample';
+import CustomizedSteppers from "./Components/Stepper/CustomizedSteppers"
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -47,6 +49,9 @@ const routing = (
       <Route path="/Drawer" component={Drawer} />
       <Route path="/PrimarySearchAppBar" component={PrimarySearchAppBar} />
       <Route path="/RegularAppBar" component={RegularAppBar} />
+      <Route path="/CustomizedExpansionPanels" component={CustomizedExpansionPanels} />
+      <Route path="/SkeletonSample" component={SkeletonSample} />
+      <Route path="/CustomizedSteppers" component={CustomizedSteppers} />
     </Router>
   );
 
