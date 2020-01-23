@@ -27,6 +27,12 @@ import RegularAppBar from './Components/AppBar/RegularAppBar';
 import CustomizedExpansionPanels from "./Components/ExpansionPanels/CustomizedExpansionPanels"
 import SkeletonSample from './Components/ProgressBar/SkeletonSample';
 import CustomizedSteppers from "./Components/Stepper/CustomizedSteppers"
+import Switches from "./Components/Switches/Switches"
+import AlertDialog from "./Components/DailogBox/AlertDialog"
+import InteractiveList from "./Components/List/InteractiveList"
+import MaterialTableDemo from "./Components/Tables/MaterialTableDemo"
+import CustomizedRatings from "./Components/Rating/CustomizedRatings"
+
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -52,7 +58,12 @@ const routing = (
       <Route path="/CustomizedExpansionPanels" component={CustomizedExpansionPanels} />
       <Route path="/SkeletonSample" component={SkeletonSample} />
       <Route path="/CustomizedSteppers" component={CustomizedSteppers} />
-    </Router>
+      <Route path="/Switches" component={Switches} />
+      <Route path="/AlertDialog" component={AlertDialog} />
+      <Route path="/InteractiveList" component={InteractiveList} />
+      <Route path="/MaterialTableDemo" component={MaterialTableDemo} />
+      <Route path="/CustomizedRatings" component={CustomizedRatings} />
+ </Router>
   );
 
 ReactDOM.render(routing, document.getElementById('root'));

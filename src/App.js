@@ -96,6 +96,25 @@ function App(props) {
       <Button variant="outlined" color="primary" onClick={() => props.history.push("/CustomizedSteppers")}>
         Steppers
       </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/Switches")}>
+      Switches
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/AlertDialog")}>
+      Dialog
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/InteractiveList")}>
+      Interactive List
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/MaterialTableDemo")}>
+      Material Table
+      </Button> </div>
+      <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/CustomizedRatings")}>
+     Ratings      </Button> </div>
       {/* <div class="button-container">
         <Button className="button-style" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
       </div>
