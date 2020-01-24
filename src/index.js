@@ -32,7 +32,8 @@ import AlertDialog from "./Components/DailogBox/AlertDialog"
 import InteractiveList from "./Components/List/InteractiveList"
 import MaterialTableDemo from "./Components/Tables/MaterialTableDemo"
 import CustomizedRatings from "./Components/Rating/CustomizedRatings"
-
+import Carousel from "./Components/Carousel/TextMobileStepper"
+import HorizontalList from "./HorizontalList/Sample"
 const routing = (
     <Router>
     <Route exact path="/" component={App} />
@@ -63,6 +64,8 @@ const routing = (
       <Route path="/InteractiveList" component={InteractiveList} />
       <Route path="/MaterialTableDemo" component={MaterialTableDemo} />
       <Route path="/CustomizedRatings" component={CustomizedRatings} />
+      <Route path="/Carousel" component={Carousel} />
+      <Route path="/HorizontalList" component={HorizontalList} />
  </Router>
   );
 

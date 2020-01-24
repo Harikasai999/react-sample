@@ -115,6 +115,12 @@ function App(props) {
       <div class="button-container">
       <Button variant="outlined" color="primary" onClick={() => props.history.push("/CustomizedRatings")}>
      Ratings      </Button> </div>
+     <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/Carousel")}>
+     Carousel      </Button> </div>
+     <div class="button-container">
+      <Button variant="outlined" color="primary" onClick={() => props.history.push("/HorizontalList")}>
+     Horizontal List      </Button> </div>
       {/* <div class="button-container">
         <Button className="button-style" onClick={() => props.history.push("/SignUp")}>SignUp</Button>
       </div>
